@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: black;
+    color: white;
+    min-height: 200px;
+}
+
+header h1{
+    font-size: 7.5vw;
+    text-align: center;
+    padding: 30px 10px 10px 10px;
+}
+
+header p{
+    color: white;
+    text-align: center;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+.normal{
+    background-color: white;
+}
+
+main{
+    line-height: 5vw;
+    font-size: 3vw;
+}
+
+#borboleta{
+    background-image: url('imagens/background001.jpg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+#borboleta p{
+    background-color: rgba(0, 0, 0, 0.500);
+    padding: 1vw 0vw;
+    max-width: 42vw;
+}
+
+#letras{
+    background-image: url('imagens/background002.jpg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+#letras p{
+    background-color: rgba(0, 0, 0, 0.500);
+    padding: 1vw 0vw;
+    max-width: 42vw;
+}
+
+main section{
+    padding: 40px 30px;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 5px 0px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
