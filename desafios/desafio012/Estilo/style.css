@@ -31,47 +31,49 @@ header a:hover{
     text-decoration: underline;
 }
 
-.normal{
-    background-color: white;
-}
-
 main{
     line-height: 5vw;
     font-size: 3vw;
 }
 
-#borboleta{
-    background-image: url('imagens/background001.jpg');
-    background-repeat: no-repeat;
-    background-position: right center;
-    background-size: cover;
-    background-attachment: fixed;
-    color: white;
-}
-
-#borboleta p{
-    background-color: rgba(0, 0, 0, 0.500);
-    padding: 1vw 0vw;
-    max-width: 42vw;
-}
-
-#letras{
-    background-image: url('imagens/background002.jpg');
-    background-repeat: no-repeat;
-    background-position: right center;
-    background-size: cover;
-    background-attachment: fixed;
-    color: white;
-}
-
-#letras p{
-    background-color: rgba(0, 0, 0, 0.500);
-    padding: 1vw 0vw;
-    max-width: 42vw;
-}
-
 main section{
-    padding: 40px 30px;
+    padding: 30px 30px;
+}
+
+section p{
+    background-color: white;
+    padding: 5vw 0vw;
+}
+
+
+#foto1{
+    background-image: url('../imagens/background001.jpg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+#foto1 p{
+    background-color: rgba(0, 0, 0, 0.500);
+    padding: 1vw 0vw;
+    max-width: 42vw;
+}
+
+#foto2{
+    background-image: url('../imagens/background002.jpg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+#foto2 p{
+    background-color: rgba(0, 0, 0, 0.500);
+    padding: 1vw 0vw;
+    max-width: 42vw;
 }
 
 footer{
